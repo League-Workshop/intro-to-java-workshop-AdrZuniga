@@ -14,7 +14,12 @@ public class WorldDomination {
 		
 		String answer = JOptionPane.showInputDialog("do you know how to write code");
 		
-		if(answer.equals)("yes")
+		if(answer.equals("yes")){
+			JOptionPane.showMessageDialog(null, "you will rule the wrold");
+		}
+		else {
+			JOptionPane.showMessageDialog(null,"good luck washing dishes" );
+		}
 
 	}
 }

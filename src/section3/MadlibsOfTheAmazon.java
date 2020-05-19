@@ -17,15 +17,23 @@ public class MadlibsOfTheAmazon {
 	String bodypart = JOptionPane.showInputDialog("Type in a body part");
 
 		// Get the user to enter a verb
-	Stringe verb = JOptionPane.showInputDialog("type in a verb");
+	String verb = JOptionPane.showInputDialog("type in a verb");
 
 		// Get the user to enter a place
+	String place = JOptionPane.showInputDialog("type in a place");
 
+	
+	JOptionPane.showMessageDialog(null, "Piranhas are more " + adjective + " during the day, so cross the river at \n"
+			+ "night. Piranhas are attracted to fresh " + liquid + " and will most likely take a bite out \n"
+			+ "of your " + bodypart + " if you " + verb + ". whatever you do, if you have an open wound, \n"
+			+ "try to find another way to get back to the " + place + ". Good luck!"
+			
+			);
 		// Fit the user's words into this sentence, and save it in a String:
 		// Piranhas are more [adjective] during the day, so cross the river at
 		// night. Piranhas are attracted to fresh [type of liquid] and will most
 		// likely take a bite out of your [body part] if you [verb]. Whatever
-		// you do, if you have an open wound, try to find another way to get
+		// you do, if you have an open wound, try to find another way 
 		// back to the [place]. Good luck!
 		
 		// Make a pop-up for the final story. You can use \n to go to the next line

@@ -87,7 +87,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//11. Play the scary sound. Hint: type "sound" and then a period.		
 		sound.play();
 		//12. Drop an image into your section5 package, and use the showScaryImage method to scare your victim!
-		
+		showScaryImage("standardScaryPicture.jpg");
 	}
 
 	private void showScaryImage(String imageName) {
